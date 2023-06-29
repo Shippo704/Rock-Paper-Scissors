@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+  
+  <h1>Rock, Paper, Scissors</h1>
+
+  <section id="display">
+    <section id="pchoice" class="choice">
+      <p>You chose: Rock</p>
+      <img src="./assets/images/rock.png">
+    </section>
+    <section>
+      <h2>VS.</h2>
+    </section>
+    <section id="cchoice" class="choice">
+      <p>Computer chose: Scissors</p>
+      <img src="./assets/images/scissors.png">
+    </section>
+  </section>
+
+  <section id="buttons">
+    <button id="rock" class="button">Rock</button>
+    <button id="paper" class="button">Paper</button>
+    <button id="scissors" class="button">Scissors</button>
+  </section>
+
+  <section id="status">
+    <p></p>
+  </section>
+
+  <section id="scoreboard">
+    <p>Here are your current stats:</p>
+    <li>
+      <ul id="wins">Wins: 0</ul>
+      <ul id="ties">Ties: 0</ul>
+      <ul id="losses">Losses: 0</ul>
+      <ul id="totalgames">Total Games: 0</ul>
+      <ul id="win%">Win %: 0.00</ul>
+    </li>
+  </section>
+
+  <section id="simulation">
+    <button id="ten" class="button">Simulate 10 Games</button>
+    <button id="hundred" class="button">Simulate 100 Games</button>
+  </section>
+
+  <section id="reset">
+    <button id="resetButton" class="button">Reset</button>
+  </section>
+
+  <script src="./assets/js/rps.js"></script>
+
+</body>
+</html>
