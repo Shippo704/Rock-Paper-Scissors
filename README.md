@@ -20,4 +20,4 @@ Players simply need to click the appropriate button to either play a game or sim
 
 Github Repository: https://github.com/Shippo704/Rock-Paper-Scissors
 
-Deployed Webpage: https://shippo704.github.io/Rock-Paper-Scissors
+Deployed Webpage: https://shippo704.github.io/Rock-Paper-Scissors/
